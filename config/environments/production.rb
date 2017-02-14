@@ -90,11 +90,11 @@ Rails.application.configure do
   #Sets paperclip images to s3 aws for heroku
 config.paperclip_defaults = {
   :storage => :s3,
-  :s3_region => ENV['REGION'],
+  :s3_region => ENV['AWS_REGION'],
   :s3_credentials => {
     :bucket => ENV['S3_BUCKET_NAME'],
-    :access_key_id => ENV['ACCESS_KEY_ID'],
-    :secret_access_key => ENV['SECRET_ACCESS_KEY']
+    :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+    :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
 
