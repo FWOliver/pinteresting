@@ -16,7 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'imagemagick-identify', '~> 0.0.1'
-gem 'paperclip', '~> 3.0'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
   gem 'byebug', platform: :mri
