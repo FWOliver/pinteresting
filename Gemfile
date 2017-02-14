@@ -17,6 +17,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'imagemagick-identify', '~> 0.0.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 2.7', '>= 2.7.7'
 
 group :development, :test do
   gem 'byebug', platform: :mri
