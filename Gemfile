@@ -18,6 +18,8 @@ gem 'imagemagick-identify', '~> 0.0.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 2.7', '>= 2.7.7'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
   gem 'byebug', platform: :mri
